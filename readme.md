@@ -31,16 +31,18 @@ images of the Seasons skin, using one year of data.
    rm -r weewx-benchmark-master/public_html
    ```
 
-4. Run the benchmark. For Version 5, use `weectl report`. For Version 4, use `wee_reports`
+4. If you are on a laptop, plug it in!
+
+5. Run the benchmark. For Version 5, use `weectl report`. For Version 4, use `wee_reports`
 
    ```shell
    weectl report run --config weewx-benchmark-master/weewx.conf
    ```
    
-5. The benchmark will print the generation time for the files and images
+6. The benchmark will print the generation time for the files and images
    to standard output. Make sure there are 21 files and 68 images. If not, there
    may have been something in `weewx-benchmark-master/public_html`. Go back and do
    step 3 again.
 
-6. Add your results to the wiki page [_Benchmarks of file and image
+7. Add your results to the wiki page [_Benchmarks of file and image
    generation_](https://github.com/weewx/weewx/wiki/Benchmarks-of-file-and-image-generation)
