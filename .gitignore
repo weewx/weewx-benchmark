@@ -1,0 +1,18 @@
+*~
+\#*
+.DS_Store
+*.pyc
+__pycache__
+*.egg-info
+.venv
+venv
+
+# Exclude all of the JetBrains .idea directory
+.idea
+
+# Ignore artifacts produced during build/packaging
+MANIFEST
+build
+dist
+
+public_html/
